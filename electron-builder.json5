@@ -1,0 +1,54 @@
+/**
+ * @see https://www.electron.build/configuration/configuration
+ */
+{
+  appId: "anas.rin.viz",
+  productName: "Viz",
+  copyright: "Copyright © 2022 ${author}",
+  asar: true,
+  directories: {
+    output: "release/${version}",
+    buildResources: "electron/resources",
+  },
+  extraResources: [
+    {
+      from: "python/dist",
+      to: "papan",
+      filter: [
+        "!*_server*"
+      ],
+    },
+    {
+      from: "electron/resources/icons",
+      to: "icons"
+    },
+    {
+      from: "electron/resources/tray",
+      to: "tray"
+    },
+    {
+      from: "electron/resources/theme",
+      to: "theme"
+    },
+  ],
+  files: ["dist"],
+  win: {
+    target: [
+      {
+        target: "nsis",
+        arch: ["x64"],
+      },
+    ],
+    artifactName: "${productName}-Windows-${version}-Setup.${ext}",
+  },
+  nsis: {
+    oneClick: false,
+    perMachine: false,
+    allowToChangeInstallationDirectory: true,
+    deleteAppDataOnUninstall: false,
+  },
+  linux: {
+    target: ["tar.gz"],
+    artifactName: "${productName}-Linux-${version}.${ext}",
+  },
+}

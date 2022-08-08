@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-weight: 700;
+	font-size: 16px;
+	--outline-width: 1px;
+	--outline-color: rgba(0, 0, 0, 0.5);
+}
+
+.group {
+	display: flex;
+	flex-direction: row;
+	gap: var(--outline-width);
+	height: 100vh;
+	color: white;
+	font-family: "Inter", "system-ui";
+	-webkit-app-region: drag;
+}
+
+.keyHistory {
+	flex: 1;
+	padding: 1.25rem 1rem;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.9);
+	outline: var(--outline-color) solid var(--outline-width);
+	direction: rtl;
+	font-size: 1.75rem;
+	white-space: nowrap;
+	text-align: center;
+	text-overflow: ellipsis;
+}
+
+.keyHistory .item:is(.hasmodifiers, .hasmargin) {
+	margin: 0 0.25ch;
+}
+
+.keyHistory .item:is(.hasmodifiers, .hasmargin):last-child {
+	margin-right: 0;
+}
+
+.keyHistory .count {
+	position: relative;
+	bottom: -1rem;
+	font-size: 0.75em;
+	font-feature-settings: "case" 1, "ss02" 1, "tnum" 1;
+}
+
+.grid {
+	display: grid;
+	grid-template: repeat(2, 1fr) / 1fr 1fr;
+	gap: var(--outline-width);
+}
+
+.keyPress {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
+	background: rgba(0, 0, 0, 0.9);
+	outline: var(--outline-color) solid var(--outline-width);
+}
+
+.active {
+	color: #000;
+	background: rgba(255, 255, 255, 0.9);
+}

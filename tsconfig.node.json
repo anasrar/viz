@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"module": "ESNext",
+		"lib": ["dom", "esnext"],
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"outDir": "dist/TSCBuild/"
+	},
+	"include": [
+		"vite.config.ts",
+		"package.json",
+		"electron/**/*",
+		"./client/main.d.ts"
+	]
+}

@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.yarn
+
+# tsc --build reference electron
+electron/**/*.js
+electron/**/*.d.ts
+/*.tsbuildinfo
+/*.d.ts
+/*.js
+
+# unit test
+/.test
+
+# papan
+python/.venv
+python/__pycache__
+python/build/papan*
+python/papan*.spec
+
+# resources
+electron/resources/tray/*
+electron/resources/icons/*
+
+# Editor directories and files
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+release
+.vscode/.debug.env
+

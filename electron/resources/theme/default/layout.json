@@ -1,0 +1,55 @@
+[
+	{
+		"type": "div",
+		"className": "group",
+		"components": [
+			{
+				"type": "keyHistory",
+				"counterStart": 3,
+				"separator": "+",
+				"reset": 1000,
+				"className": "keyHistory",
+				"classHasModifiers": "hasmodifiers",
+				"classHasMargin": "hasmargin"
+			},
+			{
+				"type": "div",
+				"className": "grid",
+				"components": [
+					{
+						"type": "keyCodes",
+						"codes": [42, 54],
+						"className": "keyPress",
+						"classActive": "active",
+						"classHasBeenPress": "hasbeenpress",
+						"text": "shift"
+					},
+					{
+						"type": "keyCodes",
+						"codes": [125, 126],
+						"className": "keyPress",
+						"classActive": "active",
+						"classHasBeenPress": "hasbeenpress",
+						"text": "super"
+					},
+					{
+						"type": "keyCodes",
+						"codes": [29, 97],
+						"className": "keyPress",
+						"classActive": "active",
+						"classHasBeenPress": "hasbeenpress",
+						"text": "ctrl"
+					},
+					{
+						"type": "keyCodes",
+						"codes": [56, 100],
+						"className": "keyPress",
+						"classActive": "active",
+						"classHasBeenPress": "hasbeenpress",
+						"text": "alt"
+					}
+				]
+			}
+		]
+	}
+]

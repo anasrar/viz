@@ -1,0 +1,191 @@
+{
+	"window": {
+		"width": 500,
+		"height": 80
+	},
+	"ignoreCodes": [],
+	"replaceCodes": {
+		"94": {
+			"value": "muhenkan",
+			"margin": true
+		},
+		"92": {
+			"value": "henkan",
+			"margin": true
+		}
+	},
+	"ignoreValues": ["shift", "ctrl", "windows", "alt", "alt gr"],
+	"replaceValues": {
+		"unknown": {
+			"value": "unknown",
+			"margin": true
+		},
+		"shift": {
+			"value": "shift",
+			"margin": true
+		},
+		"ctrl": {
+			"value": "ctrl",
+			"margin": true
+		},
+		"windows": {
+			"value": "super",
+			"margin": true
+		},
+		"alt": {
+			"value": "alt",
+			"margin": true
+		},
+		"alt gr": {
+			"value": "alt",
+			"margin": true
+		},
+		"esc": {
+			"value": "esc",
+			"margin": true
+		},
+		"backspace": {
+			"value": "backspace",
+			"margin": true
+		},
+		"tab": {
+			"value": "tab",
+			"margin": true
+		},
+		"caps lock": {
+			"value": "caps lock",
+			"margin": true
+		},
+		"home": {
+			"value": "home",
+			"margin": true
+		},
+		"end": {
+			"value": "end",
+			"margin": true
+		},
+		"insert": {
+			"value": "insert",
+			"margin": true
+		},
+		"delete": {
+			"value": "delete",
+			"margin": true
+		},
+		"page up": {
+			"value": "page up",
+			"margin": true
+		},
+		"page down": {
+			"value": "page down",
+			"margin": true
+		},
+		"space": {
+			"value": "␣"
+		},
+		"enter": {
+			"value": "enter",
+			"margin": true
+		},
+		"up": {
+			"value": "↑"
+		},
+		"right": {
+			"value": "→"
+		},
+		"down": {
+			"value": "↓"
+		},
+		"left": {
+			"value": "←"
+		},
+		"f1": {
+			"value": "F1",
+			"margin": true
+		},
+		"f2": {
+			"value": "F2",
+			"margin": true
+		},
+		"f3": {
+			"value": "F3",
+			"margin": true
+		},
+		"f4": {
+			"value": "F4",
+			"margin": true
+		},
+		"f5": {
+			"value": "F5",
+			"margin": true
+		},
+		"f6": {
+			"value": "F6",
+			"margin": true
+		},
+		"f7": {
+			"value": "F7",
+			"margin": true
+		},
+		"f8": {
+			"value": "F8",
+			"margin": true
+		},
+		"f9": {
+			"value": "F9",
+			"margin": true
+		},
+		"f10": {
+			"value": "F10",
+			"margin": true
+		},
+		"f11": {
+			"value": "F11",
+			"margin": true
+		},
+		"f12": {
+			"value": "F12",
+			"margin": true
+		},
+		"f13": {
+			"value": "F13",
+			"margin": true
+		},
+		"f14": {
+			"value": "F14",
+			"margin": true
+		},
+		"f15": {
+			"value": "F15",
+			"margin": true
+		},
+		"f16": {
+			"value": "F16",
+			"margin": true
+		},
+		"f17": {
+			"value": "F17",
+			"margin": true
+		},
+		"f18": {
+			"value": "F18",
+			"margin": true
+		},
+		"f19": {
+			"value": "F19",
+			"margin": true
+		},
+		"f20": {
+			"value": "F20",
+			"margin": true
+		},
+		"f21": {
+			"value": "F21",
+			"margin": true
+		},
+		"f22": {
+			"value": "F22",
+			"margin": true
+		}
+	}
+}
