@@ -27,4 +27,5 @@ const svgApp = Buffer.from(
 	})
 );
 
+sharp(svgApp).png().toFile("./electron/resources/build/icon.png");
 sharp(svgApp).png().toFile("./electron/resources/icons/app.png");
