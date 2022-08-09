@@ -16,10 +16,24 @@ Keystroke and Mouse Visualizer
   yarn icon
   ```
 - run to build papan (global keyboard and mouse listener)
+
+  #### Unix
+
   ```bash
   cd python
   python -m venv .venv
   source .venv/bin/activate
+  pip install -r ./requirements.txt
+  pyinstaller papan.py -y --clean --onefile
+  pyinstaller papan_server.py -y --clean --onefile
+  ```
+
+  #### Windows (Powershell)
+
+  ```bash
+  cd python
+  python -m venv .venv
+  .\.venv\Scripts\Activate
   pip install -r ./requirements.txt
   pyinstaller papan.py -y --clean --onefile
   pyinstaller papan_server.py -y --clean --onefile
@@ -34,6 +48,7 @@ Keystroke and Mouse Visualizer
 
 - fork
 - change something
+- summary what is change in [changelog.md](changelog.md)
 - commit with [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - pull request
 
